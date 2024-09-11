@@ -1,0 +1,96 @@
+Cd is change directory which allows you to change your user
+
+Ls shows the files that are in your user 
+
+Flow Control
+- Controls how you move through a file or a particular type of data
+
+4 options
+- if...elif...else, if this then this
+if a equals b, return "they are equal", If a greater than b "a is greater" and if b is greater than a, 
+return "b is greater
+
+
+- for, looping, having multiple things do something until something happens
+
+
+- while, while this is true do this
+
+
+- Range, the range of a list which lets you go through every item
+
+------------------------------
+
+- Loops are flow control. Changes how code executes iteratively, how data moves through the application
+
+== is comparing whereas = is setting something equal to something else
+ex.
+a = 3
+b = 9
+
+if a == b:
+    print("they are equal")
+elif a>b:
+    print("a is greater")
+elif b>a:
+    print("b is greater")
+
+----------------------------
+
+While loops
+- repeatedly test an expression and continue to run whatever is in the loop 
+until a stopping condition is met
+ex.
+x = 3
+while x < 10:
+    print(x)
+    x += 1
+
+-----------------------------------
+
+For loops
+
+ex. 
+cats = ["Dexter","Grumpy", "Pete", "Dotty", "Fluffy"]
+for cat in cats:
+    print(cat)
+
+--------------------------------------
+
+Range
+- (Start, stop [, step])
+stop is exclusive, so its not included
+
+for r in range(1,10+1,2):
+    print(r)
+
+---------------------------
+Function
+- if we want our code to be reusable, we use a function
+- any variables we use in the function need to be passed in or defined 
+inside the function itself
+ex. 
+def comparision(a,b):
+        if a == b:
+            return"they are equal"
+        elif a>b:
+            return"a is greater"
+        elif b>a:
+            return"b is greater" 
+comparision(2,7)
+
+-------------------------------------------------
+
+Classes
+
+Three types
+-class methods, static methods, and instance methods
+
+Class Method: Can modify calss state, cannot modify object state, Used for factory functions
+Static Method: Cannot access class state, Cannot access object state, Can Modify object state
+Instance method: Can modify class state, Can modify object state
+
+- Factory Functions seperate the process of creating an object from the code that depends on the
+interface of the object
+- Utility functions handle logic and checks (see if person on the website is over 18, see if inputs meet
+particular requirements,etc)

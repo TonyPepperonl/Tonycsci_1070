@@ -1,6 +1,6 @@
 1. I plan to work alone for this project
 2. I plan on using this data set on Student Performance
 https://www.kaggle.com/datasets/muhammadroshaanriaz/students-performance-dataset-cleaned
-Null hypothesis: In the student performance data set, I do not think that whether or not a student has had lunch will have any affect on their performance 
-Alternative hypothesis: I think that in the student performance data set we will see that students whose parents have higher education will have higher performance across the board.
-The model that I will use for this data set is most likely something that works well with continuous data, for example Linear Regression
+Null hypothesis: In the student performance data set, The of education of student's parents, their ethnicity, or gender will have any influence on their perfromance
+Alternative hypothesis: In the student performance data set we will see that the level of education of student's parents, their ethnicity, and gender will have an impact on their performance.
+The model that I will use for this data set is most likely something that works well with continuous data, for example a Multiple Linear Regression model.

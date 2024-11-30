@@ -1,6 +1,6 @@
 1. I plan to work alone for this project
 2. I plan on using this data set on Student Performance
 https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
-Null hypothesis: In the student performance data set, The of education of student's parents, their ethnicity, or gender will have any influence on their perfromance
-Alternative hypothesis: In the student performance data set we will see that the level of education of student's parents, their ethnicity, and gender will have an impact on their performance.
-The model that I will use for this data set is most likely something that works well with continuous data, for example a Multiple Linear Regression model, or maybe random forest model
+Null hypothesis: In the student performance data set, The of education of student's parents, their family income, or gender will have any influence on their perfromance
+Alternative hypothesis: In the student performance data set we will see that the level of education of student's parents, their family income, and gender will have an impact on their performance.
+The model that I will use for this data set is most likely something that works well with continuous data, for example a Multiple Linear Regression model, or maybe random forest model.
